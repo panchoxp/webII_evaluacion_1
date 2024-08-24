@@ -1,0 +1,14 @@
+<div class="row">
+    <div class="col-md-4" *ngFor="let item of libros">
+      <div class="thumbnail">
+        <a [href]="item.detalles.imagen_portada">
+          <img [src]="item.detalles.imagen_portada" alt="Portada del libro" style="width:100%">
+        </a>
+        <div class="caption">
+          <p>Nombre: {{item.autor.nombre}}</p>
+          <p>Nacionalidad: {{item.autor.nacionalidad}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  

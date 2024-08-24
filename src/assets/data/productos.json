@@ -1,0 +1,11 @@
+{
+  "productos": [
+    {
+      "id": 2,
+      "producto": "pastel",
+      "categoria": "postres",
+      "color": "verde",
+      "precio": 300
+    }
+  ]
+}
